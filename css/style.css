@@ -1,0 +1,176 @@
+/* changed bg-light color to #F0FFF0 of bootstrap.css for extra benefit, instead of changing nav background */
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+nav a{
+    font-size: 18px; 
+}
+nav li{
+    padding: 5px 20px;
+}
+nav li:last-child{
+    background: #21B573;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+nav li:last-child a{
+    color: #fff !important;
+}
+nav li:last-child:hover {
+    background: #218838;
+}
+nav img{
+    width: 200px;
+}
+nav .navbar-nav .active a{
+    color: #21B573 !important;
+    border-bottom: 4px solid #21B573;
+}
+                        /* banner */
+.text-orange{
+    color: #FD511A;
+}
+.heading-green{
+    color: #21B573;
+}
+.btn{
+    border-radius: 30px;
+    padding: 10px 30px;
+    background: #21B573;
+}
+h1{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+}
+p{
+    line-height: 36px;
+    color: #6C6B6B;
+}
+
+                     /* Features section */
+h2{
+    font-weight: bold;
+    font-size: 36px;
+    color: #413960;
+}
+.feature-inner{
+    width: 260px;
+    height: 260px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 30px;
+
+}
+.feature-inner:hover{
+    box-shadow:  0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+.features img{
+    max-width: 70px;
+    margin-bottom: 20px;
+}
+
+                        /* course section */
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 10px 40px #0000001a;
+    height: 450px;
+}
+.card img{
+    padding: 20px 20px 0px 20px;
+}
+.crd-footer{
+    font-size: 12px;
+    margin-top: 20px;
+}
+.crd-footer img{
+    max-width: 20px;
+    margin-top: 6px;
+    padding: 0;
+}
+                            /* Testimonial */
+.test-section h2{
+    color: #000;
+    padding: 40px;
+}
+.test-section{
+    height: 400px;
+}
+.test-section img{
+    width: 120px;
+}
+
+                                /* footer */
+
+footer{
+    background: #282531;
+}
+
+footer a, footer p{
+    line-height: 36px;
+    color: #fff;
+}
+
+footer li{
+    list-style-type: none;
+}
+
+
+
+
+@media (max-width: 600px) {
+    .test-section{
+        text-align: center;
+        height: 650px;
+    }
+  }
+@media(max-width: 440px){
+    .banner-area h1{
+        font-size: 30px;
+        line-height: 35px;
+    }
+}
+@media (min-width: 600px) {
+    .test-section{
+        text-align: center;
+        height: 620px;
+    }
+  }
+@media (min-width: 640px) {
+    .test-section{
+        text-align: center;
+        height: 600px;
+    }
+    .test-section img{
+        width: 120px;
+    }
+  }
+@media (min-width: 768px) {
+    .test-section{
+        height: 400px;
+        text-align: left;
+  }
+    .banner-area h1{
+        font-size: 35px;
+        line-height: 35px;
+    }
+}
+@media (min-width: 992px) {
+    .test-section{
+        height: 350px;
+    }
+    .banner-area h1{
+        font-size: 48px;
+        line-height: 70px;
+    }
+    footer{
+        font-size: 14px;
+    }
+  }
+@media (min-width: 1200px) {
+    footer{
+        font-size: 16px;
+    }
+  }
