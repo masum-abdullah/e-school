@@ -48,11 +48,10 @@ p{
     line-height: 36px;
     color: #6C6B6B;
 }
-
                      /* Features section */
-h2{
-    font-weight: bold;
-    font-size: 36px;
+h3{
+    font-weight: 500;
+    font-size: 24px;
     color: #413960;
 }
 .feature-inner{
@@ -70,8 +69,12 @@ h2{
     max-width: 70px;
     margin-bottom: 20px;
 }
-
                         /* course section */
+h2{
+    font-weight: bold;
+    font-size: 36px;
+    color: #413960;
+}
 .card{
     border: none;
     border-radius: 10px;
@@ -101,7 +104,6 @@ h2{
 .test-section img{
     width: 120px;
 }
-
                                 /* footer */
 
 footer{
